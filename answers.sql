@@ -1,7 +1,7 @@
 -- Question 1 Achieving 1NF (First Normal Form)
 -- Create the Orders table
 CREATE TABLE Orders (
-    OrderID INT AUTO_INCREMENT PRIMARY KEY ,
+    OrderID INT AUTO_INCREMENT PRIMARY KEY,
     CustomerName VARCHAR(150)
 );
 
@@ -34,7 +34,7 @@ VALUES
 -- Question 2 Achieving 2NF (Second Normal Form)
 -- Create the Orders table
 CREATE TABLE Orders (
-    OrderID INT AUTO_INCREMENT PRIMARY KEY ,
+    OrderID INT AUTO_INCREMENT PRIMARY KEY,
     CustomerName VARCHAR(150)
 );
 
